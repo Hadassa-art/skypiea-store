@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #1a1a2e;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(90deg, #ff4d8d, #7b2ff7);
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 16px;
+  display: grid;
+  gap: 20px;
+}
+
+.produto {
+  background: #16213e;
+  border: 2px solid #ff4d8d;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.produto h3 {
+  color: #ff4d8d;
+  margin-top: 0;
+}
+
+.produto strong {
+  font-size: 1.3rem;
+  color: #ffd166;
+}
+
+.instrucoes {
+  background: #0f3460;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+button {
+  background: #ff4d8d;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #7b2ff7;
+}
+
+footer {
+  background: #0f0f1a;
+  padding: 16px;
+  margin-top: 30px;
+}
